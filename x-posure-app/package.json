@@ -1,25 +1,24 @@
 {
-  "name": "my-new-project",
+  "name": "empty-project-template",
   "main": "node_modules/expo/AppEntry.js",
   "private": true,
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "eject": "expo eject",
-    "test": "node ./node_modules/jest/bin/jest.js --watchAll"
-  },
-  "jest": {
-    "preset": "jest-expo"
+    "eject": "expo eject"
   },
   "dependencies": {
-    "@expo/samples": "2.1.1",
-    "expo": "^30.0.1",
-    "react": "16.3.1",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-30.0.0.tar.gz",
-    "react-navigation": "^2.16.0"
+    "expo": "^31.0.2",
+    "firebase": "^5.5.8",
+    "react": "^16.6.3",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-31.0.1.tar.gz",
+    "react-native-elements": "^0.19.1",
+    "react-native-vector-icons": "^4.6.0",
+    "react-navigation": "^2.18.2"
   },
   "devDependencies": {
-    "jest-expo": "30.0.0"
+    "babel-preset-expo": "^5.0.0",
+    "schedule": "^0.4.0"
   }
 }
